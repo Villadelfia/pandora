@@ -1,0 +1,20 @@
+{
+    "version": "r89",
+    "description": "A package manager for the Zig programming language. ",
+    "homepage": "https://nektro.github.io/zigmod/",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/nektro/zigmod/releases/download/r89/zigmod-x86_64-windows.exe#/zigmod.exe",
+            "hash": "D093CD8BEF7192354E40DF84006123BBB2357CEC2B0566FBFF08BD5C9E86C218"
+        },
+        "arm64": {
+            "url": "https://github.com/nektro/zigmod/releases/download/r89/zigmod-aarch64-windows.exe#/zigmod.exe",
+            "hash": "39F919C08BDB570CAC24A46B1CAB463B46D5B96AFD0B8486D89419B45821EDDD"
+        }
+    },
+    "bin": "zigmod.exe",
+    "checkver": {
+        "github": "https://github.com/nektro/zigmod"
+    }
+}
